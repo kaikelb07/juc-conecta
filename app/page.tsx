@@ -49,7 +49,7 @@ export default function Home() {
         {/* Logo */}
         <div className="mb-8 animate-fade-in">
           <Image
-            src="/public/images/logo.png"
+            src="/images/logo.png"
             alt="Juc.Conecta - Marketing Católico"
             width={280}
             height={280}
