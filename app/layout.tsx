@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   title: 'Juc.Conecta - Marketing Católico',
   description: 'Jovens Unidos em Cristo - Conecte-se conosco nas redes sociais',
   icons: {
-    icon: [{ url: '/icon.svg', type: 'image/svg+xml' }],
-    apple: '/icon.svg',
+    icon: [{ url: '/public/favicon-32x32.png', type: 'image/png', sizes: '32x32' }],
+    apple: '/public/favicon-32x32.png',
   },
 }
 
