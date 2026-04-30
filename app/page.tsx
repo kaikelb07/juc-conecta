@@ -21,16 +21,16 @@ const links = [
     icon: "facebook",
   },
   {
-    title: "Paróquia São Mateus",
-    description: "Conheça nossa paróquia",
-    url: "https://bio.site/paroquiasaomateus",
-    icon: "church",
-  },
-  {
     title: "Spotify",
     description: "Escute a nossa playlist",
     url: "https://open.spotify.com/playlist/1XLR6xM5aRQV3EeepsTKCS?si=bbbee38c80ca4b62",
     icon: "spotify",
+  },
+  {
+    title: "Paróquia São Mateus",
+    description: "Conheça nossa paróquia",
+    url: "https://bio.site/paroquiasaomateus",
+    icon: "church",
   },
   {
     title: "Nossa Localização",
