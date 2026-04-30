@@ -52,13 +52,30 @@ function LocationIcon({ className }: { className?: string }) {
   )
 }
 
+function SpotifyIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 
+      12-5.373 12-12S18.627 0 12 0zm5.521 17.34a.75.75 0 0 1-1.03.247 
+      c-2.82-1.72-6.37-2.11-10.56-1.16a.75.75 0 1 1-.33-1.46 
+      c4.57-1.04 8.47-.6 11.69 1.3.36.22.47.69.23 1.07zm1.47-3.27a.94.94 
+      0 0 1-1.29.31c-3.23-1.98-8.15-2.55-11.97-1.39a.94.94 0 1 
+      1-.54-1.8c4.36-1.32 9.77-.68 13.49 1.62.44.27.57.85.31 
+      1.26zm.13-3.41c-3.87-2.3-10.26-2.51-13.95-1.39a1.13 1.13 
+      0 1 1-.65-2.16c4.24-1.29 11.28-1.04 15.77 1.63a1.13 
+      1.13 0 1 1-1.17 1.92z"/>
+    </svg>
+  )
+}
 const iconMap: Record<string, FC<{ className?: string }>> = {
   tiktok: TikTokIcon,
   instagram: InstagramIcon,
   facebook: FacebookIcon,
   church: ChurchIcon,
   location: LocationIcon,
+  spotify: SpotifyIcon
 }
+
 
 export function LinkCard({ title, description, url, icon, delay = 0 }: LinkCardProps) {
   const IconComponent = iconMap[icon]
