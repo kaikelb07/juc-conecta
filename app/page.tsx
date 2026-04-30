@@ -27,6 +27,12 @@ const links = [
     icon: "church",
   },
   {
+    title: "Spotify",
+    description: "Escute a nossa playlist",
+    url: "https://open.spotify.com/playlist/1XLR6xM5aRQV3EeepsTKCS?si=bbbee38c80ca4b62",
+    icon: "spotify",
+  },
+  {
     title: "Nossa Localização",
     description: "Venha nos visitar",
     url: "https://maps.app.goo.gl/UQ4Bi8yHkEj95iRg7",
