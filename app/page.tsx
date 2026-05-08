@@ -66,7 +66,7 @@ export default function Home() {
 
         {/* Tagline */}
         <p className="text-primary font-medium text-lg md:text-xl mb-10 text-center text-balance">
-          Jovens Unidos em Cristo
+          JUC
         </p>
 
         {/* Links */}
